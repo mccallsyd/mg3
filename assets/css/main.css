@@ -3868,6 +3868,7 @@ input, select, textarea {
 				display: none;
 			}
 
+
 		}
 
 /* Intro */
@@ -3913,7 +3914,14 @@ input, select, textarea {
 }
 
 .introduction h1{
-	font-size: 70px;
+	font-size: 250px;
 	font-family:'Caveat Brush';
 	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 736px) {
+
+	.introduction h1{
+		font-size: 100px;
+	}
 }
