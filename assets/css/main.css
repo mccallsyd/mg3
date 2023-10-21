@@ -3912,16 +3912,18 @@ input, select, textarea {
 .introduction {
 	text-align: center;
 	align-items: center;
+	justify-content: center;
+	position: absolute;
 }
 
 .introduction h1{
 	font-family:'Caveat Brush';
-	margin-bottom: 10px;
+	
 }
 
-@media screen and (max-width: 736px) {
-
-	.introduction h1{
-		font-size: 100px;
-	}
+.introduction > button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
