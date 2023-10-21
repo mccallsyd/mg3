@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgba(20, 39, 51);
+		background: rgb(33, 64, 84);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #4268a6;
+			background-color: rgba(33, 64, 84);
 		}
 
 		.wrapper.style1-alt {
@@ -3248,7 +3248,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: rgba(20, 39, 51);
+			background-color: rgba(33, 64, 84);
 		}
 
 		.wrapper.style2-alt {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #4e91b7;
+			background-color: #34607a;
 		}
 
 		.wrapper.style3-alt {
@@ -3921,9 +3921,4 @@ input, select, textarea {
 	
 }
 
-.introduction > button {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+
