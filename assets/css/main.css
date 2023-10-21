@@ -3911,10 +3911,10 @@ input, select, textarea {
 
 .introduction {
 	text-align: center;
+	align-items: center;
 }
 
 .introduction h1{
-	font-size: 250px;
 	font-family:'Caveat Brush';
 	margin-bottom: 10px;
 }
