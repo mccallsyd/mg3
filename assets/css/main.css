@@ -3882,8 +3882,9 @@ input, select, textarea {
 				height: 600px;
 			}
 
-			#mobile-menu-btn{
-				align-items: flex-end;
+			#header.title{
+				margin-right: 0px;
+				padding-right: 0px;
 			}
 		}
 
