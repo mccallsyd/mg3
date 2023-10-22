@@ -191,11 +191,15 @@
 
 //Mobile Menu
 
-function myFunction() {
-	var x = document.getElementById("myTopnav");
-	if (x.className === "topnav") {
-	  x.className += " responsive";
-	} else {
-	  x.className = "topnav";
-	}
+var mobileMenuBtn = document.querySelector("#mobile-menu-btn");
+var mobileMenu = document.querySelector(".mobile-menu");
+mobileMenuBtn.addEventListener("click", () => {
+  if (mobileMenu.style.display === "none") {
+    mobileMenu.style.display = "flex";
+    mobileMenuBtn.innerHTML = "Close";
+  } 
+  else {
+    mobileMenu.style.display = "none";
+    mobileMenuBtn.innerHTML = "Menu";
   }
+});
