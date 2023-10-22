@@ -3882,11 +3882,13 @@ input, select, textarea {
 				height: 600px;
 			}
 
-			#header.title{
-				margin-right: 0px;
-				padding-right: 0px;
-			}
+			#mobile-menu-btn {
+				position:absolute;
+				top:20px;
+				right:20px;
+			  }
 		}
+
 
 		@media screen and (min-width: 736px) {
 
