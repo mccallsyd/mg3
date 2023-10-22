@@ -3862,51 +3862,22 @@ input, select, textarea {
 
 		}
 
-		header{
-  			transition: 0.5 s;
+		@media screen and (max-width: 736px) {
+
+			.mainNav {
+				display: none;
+			}
+			#intro {
+				background-attachment: fixed;
+				background-image: url("../../images/mountain_alone.jpg");
+				background-position: top right;
+				background-repeat: no-repeat;
+				background-size: cover;
+				height: 800px;
+			}
 		}
-
-		nav {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			padding: 0px 30px;
-			color: white;
-			height: 8vh;
-		  }
-		  nav .links {
-			display: flex;
-		  }
-		  .links p {
-			padding: 10px;
-		  }
-		  #mobile-menu-btn {
-			display: none;
-		  }
-		  .mobile-menu {
-			color: white;
-			display: none;
-			position: absolute;
-			right: 0;
-			height: 60vh;
-			width: 70vw;
-		  }
-		  
-		  @media (max-width: 600px) {
-			#mobile-menu-btn {
-			  display: block;
-			}
-			nav p {
-			  display: none;
-			}
-			.mobile-menu {
-			  display: none;
-			  flex-direction: column;
-			  justify-content: space-around;
-			  align-items: center;
-			}
-		  }
-
+		
+	
 
 /* Intro */
 
@@ -3946,15 +3917,4 @@ input, select, textarea {
 
 		}
 
-.introduction {
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-}
-
-.introduction h1{
-	font-family:'Caveat Brush';
-	
-}
 
