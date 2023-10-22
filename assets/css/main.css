@@ -3865,12 +3865,14 @@ input, select, textarea {
 						}
 
 		}
+	
 
 		@media screen and (max-width: 736px) {
 
-			.mainNav {
+			.mainNav ul:not(:last-child){
 				display: none;
 			}
+			
 			#intro {
 				background-attachment: fixed;
 				background-image: url("../../images/mountain_alone.jpg");
@@ -3880,6 +3882,20 @@ input, select, textarea {
 				height: 600px;
 			}
 		}
+
+		@media screen and (min-width: 736px) {
+
+			#mobile-menu-btn {
+				display: none;
+			}
+		}
+
+		.mobile-menu {
+			display: none;
+			flex-direction: column;
+			justify-content: space-around;
+			align-items: center;
+		  }
 		
 	
 
