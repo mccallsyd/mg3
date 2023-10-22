@@ -3890,6 +3890,10 @@ input, select, textarea {
 			}
 		}
 
+		.fa-bars{
+			align-items: flex-end;
+		}
+
 		.mobile-menu {
 			display: none;
 			flex-direction: column;
