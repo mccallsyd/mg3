@@ -62,7 +62,7 @@ mark {
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
-}
+} 
 
 input, select, textarea {
 	-moz-appearance: none;
@@ -3914,7 +3914,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("../../images/mountain_alone.jpg");
+		background-image: url("../../images/IMG-1323.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3946,6 +3946,10 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		.introduction h1 {
+			font-style: "Caveat Brush"
 		}
 
 
