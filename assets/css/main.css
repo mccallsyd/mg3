@@ -3942,6 +3942,11 @@ input, select, textarea {
 				#intro p {
 					font-size: 1em;
 				}
+				.tagline {
+					height: 25px;
+					width: 70px;
+					padding-right: 10px;
+				}
 
 			}
 
@@ -3957,4 +3962,16 @@ input, select, textarea {
 			font-family: "IBM Plex Serif"
 		}
 
+
+		@media screen and (min-width: 737px) {
+			.tagline {
+				height: 35px;
+				width: 90px;
+				padding-right: 10px;
+			}
+	
+
+		}
+
+		
 
