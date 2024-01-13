@@ -2896,6 +2896,11 @@ input, select, textarea {
 		line-height: 1.5em;
 	}
 
+	header img{
+		height: 50px;
+		width: 120px;
+	}
+
 /* Split */
 
 	.split {
